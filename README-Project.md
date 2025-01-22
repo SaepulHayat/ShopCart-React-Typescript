@@ -1,5 +1,17 @@
 # ShopSmart - E-commerce React Application
 
+# 🌐 My Project Website
+
+Welcome to **My Awesome Project**!  
+Visit the live website here: 👉 **[MyWebsite.com](https://saepulhayatshop.vercel.app/)**
+
+---
+
+## 🖼️ Website Preview
+
+![Ido](<./public/readmeImage/dashboard.jpeg>)
+> Replace this image with a screenshot of your website for a better visual impact.
+
 ## 🌟 Overview
 ShopSmart adalah aplikasi e-commerce modern yang dibangun dengan React, TypeScript, dan Tailwind CSS. Aplikasi ini menyediakan pengalaman berbelanja yang mulus dengan fitur autentikasi, manajemen produk, keranjang belanja, dan checkout.
 
@@ -18,7 +30,7 @@ ShopSmart adalah aplikasi e-commerce modern yang dibangun dengan React, TypeScri
 
 1. **Clone Repository**
 ```bash
-git clone https://github.com/yourusername/shop-smart.git
+git clone https://github.com/SaepulHayat/ShopCart-React-Typescript.git
 cd shop-smart
 ```
 
@@ -225,6 +237,52 @@ npm run build
 vercel login
 vercel
 ```
+## Or 
+
+### 📌 Langkah-Langkah Deploy ke Vercel Menggunakan GitHub:
+
+#### **1. Login ke Vercel**
+- Masuk ke [Vercel](https://vercel.com/) menggunakan akun GitHub Anda.
+- Pilih opsi **“Continue with GitHub”** untuk login.
+- Berikan izin yang diperlukan jika diminta oleh Vercel untuk mengakses repository GitHub Anda.
+
+---
+![Ido](<./public/readmeImage/editImage.png>)
+
+#### **2. Pilih Repository**
+- Setelah login, buka halaman dashboard Vercel.
+- Pilih **"Add New > Project"** untuk memulai proyek baru.
+  
+---
+
+#### **3. Impor Repository GitHub**
+- Klik pada tombol **"Import Git Repository"**.
+- Cari repository yang ingin Anda deploy.
+- Klik tombol **"Import"** di sebelah repository tersebut.
+
+---
+
+#### **4. Konfigurasi Pengaturan**
+- Pada halaman konfigurasi:
+  - **Build and Output Settings**: Pastikan framework Anda terdeteksi otomatis (seperti Next.js, React, dll.).
+  - **Environment Variables**: Jika proyek Anda membutuhkan variabel environment, tambahkan di bagian ini.
+  - Klik **Deploy** untuk melanjutkan.
+
+---
+
+#### **5. Deploy Berhasil**
+- Setelah proses deploy selesai, Anda akan diarahkan ke halaman sukses dengan link **Production Deployment**.
+- Klik link tersebut untuk melihat website Anda yang telah berhasil dideploy!
+
+---
+
+Dengan langkah-langkah sederhana ini, website Anda kini online dengan domain default dari Vercel, seperti `https://saepulhayatshop.vercel.app/`.
+
+---
+
+**Tips Tambahan**:
+- Anda bisa mengkustomisasi domain melalui pengaturan domain Vercel.
+- Periksa tab **Logs** di dashboard Vercel jika ada error selama deploy.
 
 3. **Environment Variables di Vercel**
 - Tambahkan environment variables yang diperlukan di dashboard Vercel
